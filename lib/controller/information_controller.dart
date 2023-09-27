@@ -1,4 +1,5 @@
-import 'package:web_slider/model/information_model.dart';
+
+import '../model/information_model.dart';
 
 class InformationController {
   final data = [

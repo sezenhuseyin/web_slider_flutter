@@ -3,11 +3,12 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'package:web_slider/controller/const.dart';
-import 'package:web_slider/controller/information_controller.dart';
-import 'package:web_slider/model/information_model.dart';
-import 'package:web_slider/utils/url_launch.dart';
-import 'package:web_slider/widgets/arrow_bitton.dart';
+
+import 'controller/const.dart';
+import 'controller/information_controller.dart';
+import 'model/information_model.dart';
+import 'utils/url_launch.dart';
+import 'widgets/arrow_bitton.dart';
 
 void main() {
   runApp(const MyApp());
